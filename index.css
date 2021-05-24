@@ -1,0 +1,7 @@
+input, div#result, .ui-btn {
+    font-size: 3em;
+}
+
+#result {
+    color: red;
+}

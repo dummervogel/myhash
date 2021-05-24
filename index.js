@@ -1,3 +1,4 @@
+
 function compute() {
     var e1=document.getElementById("in");
     var res = sha512(e1.value);
