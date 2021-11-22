@@ -5,3 +5,8 @@ input, div#result, .ui-btn {
 #result {
     color: red;
 }
+
+#showPassword {
+    cursor: pointer;
+    font-size: xx-large;
+}

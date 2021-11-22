@@ -1,3 +1,6 @@
+$(function() {
+    $("#showPassword").click(onTogglePassword)
+})
 
 function compute() {
     var e1=document.getElementById("in");
@@ -8,4 +11,14 @@ function compute() {
 
     var e2 = document.getElementById("result");
     e2.innerText = estr + bstr;
+}
+
+function onTogglePassword() {
+    var currentType = $("#in").attr('type');
+    if(currentType == 'password') {
+        $("#in").attr('type', 'text');
+    }
+    else {
+        $("#in").attr('type', 'password');
+    }
 }
