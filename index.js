@@ -21,4 +21,5 @@ function onTogglePassword() {
     else {
         $("#in").attr('type', 'password');
     }
+    $("#showPassword").toggleClass('fa-eye-slash');
 }

@@ -7,6 +7,14 @@ input, div#result, .ui-btn {
 }
 
 #showPassword {
+    position: absolute;
+    right: 5px;
+    top: 20px;
     cursor: pointer;
     font-size: xx-large;
 }
+
+#divPass {
+    position: relative;
+}
+
